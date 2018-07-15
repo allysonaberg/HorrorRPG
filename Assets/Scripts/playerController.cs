@@ -5,10 +5,11 @@ using UnityEngine;
 public class playerController : MonoBehaviour {
 
     public float moveSpeed;
+    private Animator anim;
 
 	// Use this for initialization
 	void Start () {
-		 
+        anim = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -20,5 +21,10 @@ public class playerController : MonoBehaviour {
         if (Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f) {
             transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * moveSpeed * Time.deltaTime, 0f));
         }
+
+        anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
+        anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
+
+
 	}
 }
