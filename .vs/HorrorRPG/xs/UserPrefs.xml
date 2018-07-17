@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{6EF4D5EA-79B2-A2A7-B449-EFB590627676}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/playerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/loadNewArea.cs">
     <Files>
-      <File FileName="Assets/Scripts/playerController.cs" Line="14" Column="41" />
+      <File FileName="Assets/Scripts/playerController.cs" Line="31" Column="100" />
       <File FileName="Assets/Scripts/cameraController.cs" Line="22" Column="1" />
+      <File FileName="Assets/Scripts/loadNewArea.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
