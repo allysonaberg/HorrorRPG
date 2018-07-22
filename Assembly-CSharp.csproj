@@ -64,6 +64,8 @@
     <Compile Include="Assets\Scripts\cameraController.cs" />
     <Compile Include="Assets\Scripts\loadNewArea.cs" />
     <Compile Include="Assets\Scripts\playerController.cs" />
+    <Compile Include="Assets\Scripts\playerStartPoint.cs" />
+    <Compile Include="Assets\Scripts\slimeController.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/Ally/HorrorRPG/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
